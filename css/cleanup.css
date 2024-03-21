@@ -1,1 +1,35 @@
 /* write your override styles here */
+/* Select the element with class tag-1 */
+#wall .tag-1 {
+    display: none;
+  }
+  
+  /* Select the element with id tag-2 */
+  #tag-2 {
+    display: none;
+  }
+  
+  /* Select the element with id tag-3 */
+  #tag-3 {
+    display: none;
+  }
+  
+  /* Select the element with id tag-4 */
+  .parent > #tag-4 {
+    display: none;
+  }
+  
+  /* Select the element with id tag-5 */
+  .parent > #tag-5 {
+    display: none;
+  }
+  
+  /* Select the element with id tag-6 */
+  .parent > div > #tag-6 {
+    display: none;
+  }
+  
+  /* Select the element with id tag-7 */
+  .parent > div + div > #tag-7 {
+    display: none;
+  }
